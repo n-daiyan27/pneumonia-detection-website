@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Noto+Serif:wght@700&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    background-color: aquamarine;
+}
+.login{ 
+    color:white; 
+    border-color: aquamarine;   
+}
+.login:hover{
+    color:black;
+    background-color: aquamarine;
+    border-color: black;
+}
+
+.font-title{ 
+    font-family: 'Bebas Neue', cursive; 
+    color:white;
+    letter-spacing: 0.2em;
+    font-size: 25px;
+    text-decoration: none;
+    
+  }
+
+  .pneumo{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+ 
