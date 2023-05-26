@@ -19,6 +19,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
+    path('doctor/', include('doctor.urls')),
 ]
 from django.conf import settings
 from django.conf.urls.static import static

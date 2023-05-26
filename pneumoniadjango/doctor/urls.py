@@ -1,10 +1,8 @@
 from django.urls import path
 from . import views
-app_name= 'home'
+app_name= 'doctor'
 urlpatterns = [
-    path('', views.image_view, name='hm'),
-    path('', views.success, name='success'),
-    path('docLogin/', views.doctorLogin, name='docLogin')
+    path('', views.docHome, name='docHome'),
        
 ]
 from django.conf import settings
